@@ -5,7 +5,7 @@ This project is a comparative study of Image caption generation model . For the 
 
 <u>Sample Image:</u>
 <!-- ![Sample Image](/sample_image/cat9_img1.jpeg) -->
-<img src="/sample_image/cat9_img1.jpeg" width="48">
+<img src="/sample_image/cat9_img1.jpeg" width="128">
 
 <b>Custom Annotation</b> - Man attempting a slam dunk <br>
 <b>vit</b> - a woman jumping in the air to catch a frisbee<br>
@@ -32,26 +32,24 @@ We used three metrics for our comparative study:
 3. BLEU-2
 
 
-The results are shown below:
-
+The results are calculated in <code>score.ipynb</code> notebook. The graphs from the result are shown below:
+---
 <b>Combined METEOR for models tested</b>
-
+---
 ![METEOR1](/results/Combined-meteor/combined-meteor-1.png)
 ![METEOR2](/results/Combined-meteor/combined-meteor-2.png)
 ![METEOR3](/results/Combined-meteor/combined-meteor-3.png)
 
 ---
-
 <b>Combined BLEU-1 for models tested</b>
-
+---
 ![BLEU1-1](/results/Combined-bleu1/combined-bleu1-1.png)
 ![BLEU1-2](/results/Combined-bleu1/combined-bleu1-2.png)
 ![BLEU1-3](/results/Combined-bleu1/combined-bleu1-3.png)
 
 ---
-
 <b>Combined BLEU-2 for models tested</b>
-
+---
 ![BLEU2-1](/results/Combined-bleu-2/combined-bleu2-1.png)
 ![BLEU2-2](/results/Combined-bleu-2/combined-bleu2-2.png)
 ![BLEU2-3](/results/Combined-bleu-2/combined-bleu2-3.png)
