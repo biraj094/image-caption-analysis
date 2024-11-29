@@ -1,7 +1,22 @@
 # image-caption-analysis
 
 
-This project is a comparative study of Image caption generation model . For the purpose of this project 600 custom images were selected and annotated. That was the grouth truth for the experiment. 
+This project is a comparative study of Image caption generation model . This experiment aims to provide:
+- A detailed breakdown of the architectures and mechanisms of ViT-GPT2, BLIP, and GIT.
+- A quantitative and qualitative analysis of their performance.
+- Insights into the strengths, limitations, and suitability of each model for real-world applications.
+
+
+The dataset utilized for this study consists of 600 images, sourced exclusively from open-access platforms to ensure accessibility and reproducibility. Each image was meticulously self-annotated with high-quality captions to create a reliable ground truth for evaluating the models' performance.
+
+<b>Dataset Composition </b>
+
+To ensure diversity and robustness, the dataset spans multiple categories:
+- <b>Animals:</b> Includes various species in diverse settings, such as wildlife, pets, and zoos.
+- <b>Humans:</b> Depicts people in natural environments, performing activities, and interacting with objects.
+- <b>Architecture:</b> Captures man-made structures, including buildings, bridges, and urban landscapes.
+- <b>Natural Formations and Nature:</b> Covers landscapes, forests, mountains, rivers, and other natural scenes.
+- <b>Everyday Objects:</b> Features commonly found objects, such as tools, household items, and vehicles.
 
 <u>Sample Image:</u>
 <!-- ![Sample Image](/sample_image/cat9_img1.jpeg) -->
@@ -32,10 +47,20 @@ We used three metrics for our comparative study:
 3. BLEU-2
 
 
-The results are calculated in <code>score.ipynb</code> notebook. The graphs from the result are shown below:
+The results are calculated in <code>score.ipynb</code> notebook.The table and the graphs obtained from the study is shown below:
+
+| Model                    | METEOR | BLEU-1 | BLEU-2 |
+|--------------------------|--------|--------|--------|
+| ViT-GPT2                 | 0.1644 | 0.1845 | 0.0816 |
+| GIT                      | 0.2207 | 0.2301 | 0.117  |
+| BLIP (Conditional)       | 0.2418 | 0.2357 | 0.1246 |
+| BLIP (Unconditional)     | 0.2426 | 0.2555 | 0.1327 |
+
+
 ---
 <b>Combined METEOR for models tested</b>
 ---
+
 ![METEOR1](/results/Combined-meteor/combined-meteor-1.png)
 ![METEOR2](/results/Combined-meteor/combined-meteor-2.png)
 ![METEOR3](/results/Combined-meteor/combined-meteor-3.png)
