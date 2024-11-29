@@ -9,7 +9,7 @@ This project is a comparative study of Image caption generation model . This exp
 
 The dataset utilized for this study consists of 600 images, sourced exclusively from open-access platforms to ensure accessibility and reproducibility. Each image was meticulously self-annotated with high-quality captions to create a reliable ground truth for evaluating the models' performance.
 
-<b>Dataset Composition </b>
+<b><u>Dataset Composition </u></b>
 
 To ensure diversity and robustness, the dataset spans multiple categories:
 - <b>Animals:</b> Includes various species in diverse settings, such as wildlife, pets, and zoos.
@@ -23,9 +23,9 @@ To ensure diversity and robustness, the dataset spans multiple categories:
 <img src="/sample_image/cat9_img1.jpeg" width="128">
 
 <b>Custom Annotation</b> - Man attempting a slam dunk <br>
-<b>vit</b> - a woman jumping in the air to catch a frisbee<br>
-<b>blip</b> - a photography of a basketball player jumping to the basket<br>
-<b>blip</b> - a man jumping in the air with a basketball<br>
+<b>vit-gpt2</b> - a woman jumping in the air to catch a frisbee<br>
+<b>blip-conditional</b> - a photography of a basketball player jumping to the basket<br>
+<b>blip-unconditional</b> - a man jumping in the air with a basketball<br>
 <b>git</b> - a young man playing basketball in a gym.<br>
 
 The models that were used for caption generation are:
