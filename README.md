@@ -38,8 +38,9 @@ The models that were used for caption generation are:
 
 The folder <code>captions</code> in the repository contains all groundtruth captions as well as the model generated captions. 
 
-The annotations can be viewed in this [sheet](https://docs.google.com/spreadsheets/d/18qtOlw3fx2U0tpsXaBPplqvpL3YJEQoUMMsRXHYoeHU/edit?usp=sharing) as well. 
 
+
+The annotations can be viewed in this [sheet](https://docs.google.com/spreadsheets/d/18qtOlw3fx2U0tpsXaBPplqvpL3YJEQoUMMsRXHYoeHU/edit?usp=sharing) or in <code>all_captions.csv</code> file. 
 
 We used three metrics for our comparative study:
 1. METEOR
