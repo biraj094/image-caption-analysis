@@ -18,6 +18,8 @@ To ensure diversity and robustness, the dataset spans multiple categories:
 - <b>Natural Formations and Nature:</b> Covers landscapes, forests, mountains, rivers, and other natural scenes.
 - <b>Everyday Objects:</b> Features commonly found objects, such as tools, household items, and vehicles.
 
+<b><u>The data that we collected have been uploaded to Kaggle. Please check them out [here](https://www.kaggle.com/datasets/koiralabiraj/image-annotation/data).</u></b>
+
 <u>Sample Image:</u>
 <!-- ![Sample Image](/sample_image/cat9_img1.jpeg) -->
 <img src="/sample_image/cat9_img1.jpeg" width="128">
